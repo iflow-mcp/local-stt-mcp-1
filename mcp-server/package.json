@@ -1,8 +1,11 @@
 {
-  "name": "whisper-mcp-server",
+  "name": "@iflow-mcp/local-stt-mcp",
   "version": "1.0.3",
   "description": "whisper.cpp MCP server for local speech-to-text transcription",
   "main": "dist/index.js",
+  "bin": {
+    "local-stt-mcp": "dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
